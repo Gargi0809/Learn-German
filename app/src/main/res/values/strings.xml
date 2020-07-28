@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Learn German</string>
+    <string name="title_activity_numbers_acitivity">NumbersAcitivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="numbers_activity">Numbers</string>
+    <string name="fam_activity">Family Members</string>
+    <string name="colors_activity">Colors</string>
+    <string name="phrases_activity">Phrases</string>
+
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/numbers"
+            android:text="@string/numbers_activity"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="75dp"
+            android:background="#18FFFF"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/fam"
+            android:text="@string/fam_activity"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="75dp"
+            android:background="#33691E"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/colors"
+            android:text="@string/colors_activity"
+            android:textSize="20sp"
+            android:layout_height="75dp"
+            android:layout_width="match_parent"
+            android:background="#EEFF41"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/phrases"
+            android:text="@string/phrases_activity"
+            android:textSize="20sp"
+            android:layout_height="75dp"
+            android:layout_width="match_parent"
+            android:background="#FF8A80"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
